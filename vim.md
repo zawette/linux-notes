@@ -1,4 +1,4 @@
-# vim 
+# vim cheatsheet 
 > ps : \<cr> synbolizes a carriage return (enter)
 ## basic movements
 + hjkl left down top right
