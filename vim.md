@@ -16,7 +16,7 @@
 + CTRL+f move down by a page
 ## searching
 + /word search for word, cycle through results with n and shift n
-+ * search for occurences of the word where cursor is pointing with * 
++ \* search for occurences of the word where cursor is pointing with * 
 + clear search highlights => :noh \<cr> 
 + fc move cursor to next occurence of c on the current line (F for previous occurence)
 + tc move cursor till next occurence of c on the current line (T for previous occurence)
