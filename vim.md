@@ -15,7 +15,7 @@
 + CTRL+b move up by a page
 + CTRL+f move down by a page
 ## searching
-+ /word search for word, cycle through results with n and shift n
++ / search for word, cycle through results with n and shift n
 + \* search for occurences of the word where cursor is pointing with * 
 + clear search highlights => :noh \<cr> 
 + fc move cursor to next occurence of c on the current line (F for previous occurence)
@@ -24,6 +24,7 @@
 + i inserts where the cursor is ( I inserts at the beginning of the line)
 + a inserts next to the cursor (A inserts at the end of the line)
 + o inserts below the the current line (O insert above the current line)
++ gi inserts in the last insert position
 + r replace char
 + cw change word
 + cc change whole line
