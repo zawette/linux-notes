@@ -15,7 +15,7 @@
 + CTRL+b move up by a page
 + CTRL+f move down by a page
 ## searching
-+ / search for word, cycle through results with n and shift n
++ / search for word, cycle through results with n and N 
 + \* search for occurences of the word where cursor is pointing with * 
 + clear search highlights => :noh \<cr> 
 + fc move cursor to next occurence of c on the current line (F for previous occurence)
@@ -41,3 +41,7 @@
 + y0 yank from cursor to the beginning of the line
 + y$ yank from cursor to the end of line
 + J join current line with the next one
+## Visual mode
++ v highlight chars (V highlight lines)
++ CTRL+v highlight blockwise 
++ << shift left (>> shift right)
