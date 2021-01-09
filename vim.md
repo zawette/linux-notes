@@ -4,12 +4,14 @@
 + hjkl left down top right
 + gg first line of the file
 + G last line of the file
++ :n or nG to jump to line n
 + 0 beginning of the line
 + $ end of the line
 + w next word ( W by whitespace)
 + b previous word (B by whitespace)
 + e end of word (E by whitespace)
 + % move to the next bracket or brace on the current line 
++ { and } to hop back and forth btw empty lines
 + CTRL+u move up by half a page
 + CTRL+d move down by half a page
 + CTRL+b move up by a page
@@ -28,6 +30,8 @@
 + ni inserts n times
 + r replace char
 + cw change word
++ ciw change word (if in the middle)
++ ci{ change inside { also works with ([
 + cc change whole line
 + C change from cursor to the end of the line
 + ctc change till c (cfc also exists)
@@ -37,11 +41,19 @@
 + dh dj dk dl deletes in specified direction
 + dd delete whole line
 + D deletes from cursor to the end of the line
++ ndd or dnd delete n lines
 + dtc deletes till c , example: dt) deletes everything till closing parenthesis
 + dfc deletes all the way up to c including c
++ dw delete word
++ diw delete word (if in the middle)
++ di{ delete inside { , also works with ([
++ dip deletes contiguous block of code
++ da{ , daw , dap also exists, for instance, da{ would delete everything inside { and the brackets themselves
 ## yanking
 + yy yank line
 + yw yank word
++ yiw yank the word (if in the middle of the word)
++ yi{ yank inside { also works with ([ 
 + ynw yank n word
 + ytc yank till c (yfc also exists)
 + P paste before, p paste after
@@ -52,4 +64,7 @@
 + v highlight chars (V highlight lines)
 + CTRL+v highlight blockwise 
 + vfc highlight all the way up to c including c (vtc highlight till c) 
++ vw highlight word
++ viw highlight word (if in the middle) 
++ vi{ highlight inside { also works with ( [ 
 + << shift left (>> shift right)
