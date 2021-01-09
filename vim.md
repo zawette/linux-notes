@@ -16,6 +16,7 @@
 + CTRL+d move down by half a page
 + CTRL+b move up by a page
 + CTRL+f move down by a page
++ mc marks a line in a file (capital char to mark globaly) , 'c to go to that mark
 ## searching
 + / search for word, cycle through results with n and N 
 + \* search for occurences of the word where cursor is pointing with * 
@@ -68,3 +69,27 @@
 + viw highlight word (if in the middle) 
 + vi{ highlight inside { also works with ( [ 
 + << shift left (>> shift right)
+## splits
++ CTRL+w v opens vertical split
++ CTRL+w s opens horizontal split 
++ :split file  open file in horizontal split 
++ :vs file  open file in vertical split
++ :resize n  where n is nb of rows 
++ :vertical resize n  where n is nb of columns 
++ CTRL+w = equally spread splits
++ CTRL+w CTRL+w switch btw windows
++ CTRL+w UP     Move to the top 
++ CTRL+w DOWN   Move to the bottom 
++ CTRL+w LEFT   Move to the left 
++ CTRL+w RIGHT  Move to the right 
+## tabs
++ :tabe file - opens file in a new tab
++ :tabe new - opens new empty tab
++ :tabc - close tab
++ :tabs - list tabs
++ :tabn and tabp - next and previous tab
++ :tabfirst - go to first tab
++ :tablast - go to last tab
++ gt go to next tab (gT previous tab)
+## other stuffs
++ insert the same characters across multiple lines https://stackoverflow.com/questions/9549729/vim-insert-the-same-characters-across-multiple-lines
