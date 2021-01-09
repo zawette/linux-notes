@@ -93,3 +93,6 @@
 + gt go to next tab (gT previous tab)
 ## other stuffs
 + insert the same characters across multiple lines https://stackoverflow.com/questions/9549729/vim-insert-the-same-characters-across-multiple-lines
+## vim plugins
+### auto pairs
++ ALT+P disable
