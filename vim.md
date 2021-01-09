@@ -25,10 +25,12 @@
 + a inserts next to the cursor (A inserts at the end of the line)
 + o inserts below the the current line (O insert above the current line)
 + gi inserts in the last insert position
++ ni inserts n times
 + r replace char
 + cw change word
 + cc change whole line
 + C change from cursor to the end of the line
++ ctc change till c (cfc also exists)
 ## deletion
 + x delete char (X backward), can achieve same results with dh and dl 
 + s delete char and enter insert mode
@@ -41,6 +43,8 @@
 + yy yank line
 + yw yank word
 + ynw yank n word
++ ytc yank till c (yfc also exists)
++ P paste before, p paste after
 + y0 yank from cursor to the beginning of the line
 + y$ yank from cursor to the end of line
 + J join current line with the next one
