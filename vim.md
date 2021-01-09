@@ -36,6 +36,7 @@
 + dd delete whole line
 + D deletes from cursor to the end of the line
 + dtc deletes till c , example: dt) deletes everything till closing parenthesis
++ dfc deletes all the way up to c including c
 ## yanking
 + yy yank line
 + yw yank word
@@ -46,4 +47,5 @@
 ## Visual mode
 + v highlight chars (V highlight lines)
 + CTRL+v highlight blockwise 
++ vfc highlight all the way up to c including c (vtc highlight till c) 
 + << shift left (>> shift right)
