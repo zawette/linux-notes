@@ -102,4 +102,14 @@
 + gy go type def
 + gi go implementation
 + gr go reference
++ K signature / documentation
 + tab trigger completion and navigate
++ <leader> rn rename symbol
++ <leader> ac code action
++ <leader> qf quick fix
++ <leader> f format selection
++ space+a show diagnostics 
++ space+c show commands 
++ if, af, ic, ac:
+	+ dif daf - delete inside function, around function (also exists for cif caf)
+	+ dic dac - delete inside class, around class (also exists for cif caf)
