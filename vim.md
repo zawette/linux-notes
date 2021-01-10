@@ -93,6 +93,13 @@
 + gt go to next tab (gT previous tab)
 ## other stuffs
 + insert the same characters across multiple lines https://stackoverflow.com/questions/9549729/vim-insert-the-same-characters-across-multiple-lines
++ :set paste , :set nopaste - for pasting 
 ## vim plugins
 ### auto pairs
 + ALT+P disable
+### coc
++ gd go to definition , ctrl+o to go back
++ gy go type def
++ gi go implementation
++ gr go reference
++ tab trigger completion and navigate
