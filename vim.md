@@ -113,7 +113,7 @@
 + if, af, ic, ac:
 	+ dif daf - delete inside function, around function (also exists for cif caf)
 	+ dic dac - delete inside class, around class (also exists for cif caf)
-## coc-explorer
+### coc-explorer
 + space+e open/close explorer
 + space+f open/close floating explorer
 + <cr> to open file
