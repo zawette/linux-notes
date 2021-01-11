@@ -124,3 +124,12 @@
 + :SSave[!]    save a session (! to skip the prompt)
 + :SDelete[!]  delete a session (! to skip the prompt)
 + :SClose      close a session
+### fzf
++ :FZF fuzzy find files 
++ :Files fuzzy find files with previews ( mapped to \<leader> f ) 
++ :Buffers fuzzy find buffers ( mapped to \<leader> b )
++ :Marks fuzzy find marks ( mapped to <leader>m )
++ :Rg look inside files for a string ( mapped to \<leader> g )
++ :RG same as :Rg but matches the whole string
++ :BLines look for a string in current file
++ :Lines look for a string in all open buffers 
