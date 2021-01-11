@@ -17,6 +17,7 @@
 + CTRL+b move up by a page
 + CTRL+f move down by a page
 + mc marks a line in a file (capital char to mark globaly) , 'c to go to that mark
++ gf open file under cursor
 ## searching
 + / search for word, cycle through results with n and N 
 + \* search for occurences of the word where cursor is pointing with * 
@@ -118,3 +119,8 @@
 + space+f open/close floating explorer
 + \<cr> to open file
 + v on a file to open on vertical split mode 
+### Startify
++ :SLoad       load a session
++ :SSave[!]    save a session (! to skip the prompt)
++ :SDelete[!]  delete a session (! to skip the prompt)
++ :SClose      close a session
