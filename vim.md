@@ -108,7 +108,6 @@
 + \<leader> rn rename symbol
 + \<leader> ac code action
 + \<leader> qf quick fix
-+ \<leader> f format selection
 + space+a show diagnostics 
 + space+c show commands 
 + if, af, ic, ac:
