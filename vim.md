@@ -104,10 +104,10 @@
 + gr go reference
 + K signature / documentation
 + tab trigger completion and navigate
-+ <leader> rn rename symbol
-+ <leader> ac code action
-+ <leader> qf quick fix
-+ <leader> f format selection
++ \<leader> rn rename symbol
++ \<leader> ac code action
++ \<leader> qf quick fix
++ \<leader> f format selection
 + space+a show diagnostics 
 + space+c show commands 
 + if, af, ic, ac:
@@ -116,6 +116,5 @@
 ### coc-explorer
 + space+e open/close explorer
 + space+f open/close floating explorer
-+ <cr> to open file
++ \<cr> to open file
 + v on a file to open on vertical split mode 
-	
