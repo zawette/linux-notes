@@ -95,6 +95,7 @@
 ## other stuffs
 + insert the same characters across multiple lines https://stackoverflow.com/questions/9549729/vim-insert-the-same-characters-across-multiple-lines
 + :set paste , :set nopaste - for pasting 
++ :!command execute command with a shell
 ## vim plugins
 ### auto pairs
 + ALT+P disable
@@ -115,7 +116,6 @@
 	+ dic dac - delete inside class, around class (also exists for cif caf)
 ### coc-explorer
 + space+e open/close explorer
-+ space+f open/close floating explorer
 + \<cr> to open file
 + v on a file to open on vertical split mode 
 ### Startify
@@ -127,8 +127,10 @@
 + :FZF fuzzy find files 
 + :Files fuzzy find files with previews ( mapped to \<leader> f ) 
 + :Buffers fuzzy find buffers ( mapped to \<leader> b )
-+ :Marks fuzzy find marks ( mapped to <leader>m )
++ :Marks fuzzy find marks ( mapped to \<leader>m )
 + :Rg look inside files for a string ( mapped to \<leader> g )
 + :RG same as :Rg but matches the whole string
 + :BLines look for a string in current file
 + :Lines look for a string in all open buffers 
+### rnvimr (neovim ranger plugin)
++ \<leader> r to open , q to close
