@@ -142,6 +142,7 @@
 	+ U to unstage
 	+ cc to commit
 	+ dv to resolve conflit
+	+ to keep our version of a file during a conflict press X on staged the staged file to choose "ours" then press s on the unstaged file  
 + during conflit resolving (dv)
 	+ \<leader>g\<right> accept right side during merge ( the side we merge from )  
 	+ \<leader>g\<left> accept left side during merge 
