@@ -136,12 +136,13 @@
 ### rnvimr (neovim ranger plugin)
 + \<leader> r to open , q to close
 ### fugitive (git plugin)
-+ <leader>gs get git status
++ \<leader>gs get git status
 + during gs (with the cursor on a particular file) :
 	+ s to stage
 	+ U to unstage
 	+ cc to commit
 	+ dv to resolve conflit
 + during conflit resolving (dv)
-	+ <leader>g<right> g right arrowkey to accept right side during merge ( the side we merge from )  
-	+ <leader>g<left> g left arrowkey to accept left side during merge 
+	+ \<leader>g\<right> accept right side during merge ( the side we merge from )  
+	+ \<leader>g\<left> accept left side during merge 
+
