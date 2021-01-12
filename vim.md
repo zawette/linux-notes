@@ -114,6 +114,7 @@
 + if, af, ic, ac:
 	+ dif daf - delete inside function, around function (also exists for cif caf)
 	+ dic dac - delete inside class, around class (also exists for cif caf)
++ CocRestart to restart coc
 ### coc-explorer
 + space+e open/close explorer
 + \<cr> to open file
@@ -134,3 +135,13 @@
 + :Lines look for a string in all open buffers 
 ### rnvimr (neovim ranger plugin)
 + \<leader> r to open , q to close
+### fugitive (git plugin)
++ <leader>gs get git status
++ during gs (with the cursor on a particular file) :
+	+ s to stage
+	+ U to unstage
+	+ cc to commit
+	+ dv to resolve conflit
++ during conflit resolving (dv)
+	+ <leader>g<right> g right arrowkey to accept right side during merge ( the side we merge from )  
+	+ <leader>g<left> g left arrowkey to accept left side during merge 
