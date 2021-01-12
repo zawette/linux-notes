@@ -146,4 +146,5 @@
 + during conflit resolving (dv)
 	+ \<leader>g\<right> accept right side during merge ( the side we merge from )  
 	+ \<leader>g\<left> accept left side during merge 
-
+### nerd-commenter
++ highlight then press space /
