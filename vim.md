@@ -70,11 +70,13 @@
 + viw highlight word (if in the middle) 
 + vi{ highlight inside { also works with ( [ 
 + << shift left (>> shift right)
-+ :s/foo/bar/g Find each occurrence of 'foo' (in the current line only), and replace it with 'bar'.
-+ :%s/foo/bar/g Find each occurrence of 'foo' (in all lines), and replace it with 'bar'.
-+ :%s/foo/bar/gc Change each 'foo' to 'bar', but ask for confirmation first.
-+ :%s/\<foo\>/bar/gc Change only whole words exactly matching 'foo' to 'bar'; ask for confirmation.
-+ :%s/foo/bar/gci Change each 'foo' (case insensitive due to the i flag) to 'bar'
++ :substitute command https://vim.fandom.com/wiki/Search_and_replace
+	+ :s/foo/bar/g Find each occurrence of 'foo' (in the current line only), and replace it with 'bar'.
+	+ :%s/foo/bar/g Find each occurrence of 'foo' (in all lines), and replace it with 'bar'.
+	+ :%s/foo/bar/gc Change each 'foo' to 'bar', but ask for confirmation first.
+	+ :%s/\<foo\>/bar/gc Change only whole words exactly matching 'foo' to 'bar'; ask for confirmation.
+	+ :%s/foo/bar/gci Change each 'foo' (case insensitive due to the i flag) to 'bar'
+	+ :%s/.*foo.*// delete all lines containing foo		
 ## splits
 + CTRL+w v opens vertical split
 + CTRL+w s opens horizontal split 
