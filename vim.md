@@ -126,6 +126,9 @@
 + space+e open/close explorer
 + \<cr> to open file
 + v on a file to open on vertical split mode 
++ r to rename file
++ a to create a new file
++ A to create a new dir
 ### Startify
 + :SLoad       load a session
 + :SSave[!]    save a session (! to skip the prompt)
