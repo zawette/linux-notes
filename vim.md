@@ -155,6 +155,10 @@
 - r to rename file
 - a to create a new file
 - A to create a new dir
+- d to delete 
+- y to yank
+- x to cut
+- p to paste
 
 ### Startify
 
